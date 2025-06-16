@@ -3,18 +3,15 @@
 
 ## 📌 Overview
 
-This project is a Power BI dashboard built to analyze **hospital patient waiting lists** based on multiple dimensions including:
+This project is a Power BI dashboard built to analyze **hospital patient waiting lists** using publicly available data sourced from the internet. The dashboard presents insights based on:
 
 - Case Type (Inpatient / Day Case)
 - Specialty and Specialty Group
 - Time Bands (e.g., 0–3 Months, 12–15 Months)
 - Age Profile (e.g., Adult / Child, 65+)
-- Historical trends (via Archive Date)
-
-The dashboard is built using data from multiple hospital waiting list reports and is designed to help healthcare administrators and decision-makers understand patient backlogs and improve hospital resource planning.
+- Archive Dates (for historical trends)
 
 ---
-
 
 <P>This is preview of the dashboard and click on the below image to see the screen record </P>
 <p align="center">
@@ -24,75 +21,70 @@ The dashboard is built using data from multiple hospital waiting list reports an
 </p>
 
 ---
+# 🏥 Hospital Patient Waiting List Dashboard - Power BI
+
+
 
 ## 🎯 Purpose
 
 The main goals of this dashboard are to:
 
-- Visualize the **total number of patients on the waiting list** by specialty, case type, and age.
-- Identify **trends and bottlenecks** in patient flow using historical data.
-- Provide **insightful comparisons** between different specialties and their average wait times.
-- Support **data-driven decisions** in hospital management, resource allocation, and patient care improvements.
+- Visualize the **total number of patients on hospital waiting lists**.
+- Identify **high-pressure areas** such as specialties with long backlogs.
+- Highlight trends in **patient wait times** over the years.
+- Support **data-driven planning** for hospitals and healthcare policy.
 
 ---
 
 ## 🔍 What I Investigated
 
-- **Which specialties have the highest backlog?**
-- **How long do patients wait based on age groups and case types?**
-- **Are certain specialties or case types experiencing increasing wait times year over year?**
-- **What proportion of waiting lists belong to Day Case vs Inpatient services?**
-- **Which patient segments (e.g., Children, Elderly) are most impacted by delays?**
+- Which specialties and patient types (e.g., adult vs. child) have the **longest wait times**?
+- How has the **waiting list grown** over the years?
+- Are there differences in waiting patterns by **age group or time band**?
+- What **proportion** of patients are Day Case vs. Inpatient?
 
 ---
 
 ## 📊 Dashboard Highlights
 
-- 📈 **Time-series line charts** to track growth in waiting lists.
-- 🧮 **Dynamic filters** for drill-down by Case Type, Specialty, and Date.
-- 📊 **Bar and donut charts** for comparing wait times and patient volumes.
-- 🔁 **Linked data model** across Inpatient, Outpatient, and Specialty Mapping tables.
+- 📈 Line charts showing wait list growth over time.
+- 📊 Bar and donut charts comparing specialties, time bands, and patient categories.
+- 🔍 Interactive filters to explore by Date, Case Type, and Specialty.
+- ⚙️ Clean data model linking inpatient, outpatient, and specialty group data.
+
+---
+
+## 🌐 Data Source
+
+The data used in this project was collected from **public sources on the internet**, originally published as part of healthcare statistics reports.
 
 ---
 
 ## ⚙️ Tools Used
 
 - **Microsoft Power BI**
-- **Excel** (as the data source)
-- **Power Query / DAX**
-- **Data Modeling & Relationships**
+- **Excel**
+- **Power Query & DAX**
 
 ---
 
 ## 📁 Files Included
 
-- `.pbix` file: Power BI dashboard
-- `.xlsx` file: Raw hospital data
-- Screenshots of the dashboard
-- `README.md` (this file)
+- `.pbix` – Power BI dashboard file
+- `.xlsx` – Raw dataset
+- Dashboard screen record
+- This `README.md` file
 
 ---
 
-## 📌 How to Use
-
-1. Clone this repository.
-2. Open the `.pbix` file in Power BI Desktop.
-3. Load the dataset if needed and refresh the visuals.
-4. Use filters and slicers to explore the data interactively.
-
----
 
 ## 📬 Contact
 
-If you have questions, suggestions, or want to collaborate on data visualization or healthcare analytics, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/hareendra-muthukumarana-b8609b22b/).
+Created by **Hareendra Muthukumarana**  
+Connect on [LinkedIn](https://www.linkedin.com/in/hareendra-muthukumarana-b8609b22b/)
 
 ---
 
-## 📷 Preview
 
-![Dashboard Screenshot](./dashboard_screenshot.png) <!-- Replace with your actual image path -->
-[▶️ Watch Walkthrough Video](https://youtu.be/nZfxC43_YHk)
-
----
 
 

@@ -13,7 +13,7 @@ This project is a Power BI dashboard built to analyze **hospital patient waiting
 
 ---
 
-<P>This is preview of the dashboard and click on the below image to see the screen record </P>
+<P>This is preview of the dashboard and click on the below image to see the dashboard </P>
 <p align="center">
   <a href="https://youtu.be/nZfxC43_YHk" target="_blank">
     <img src="https://img.youtube.com/vi/nZfxC43_YHk/0.jpg" alt="YouTube Video" width="600" />

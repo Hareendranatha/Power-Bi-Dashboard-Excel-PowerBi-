@@ -21,8 +21,6 @@ This project is a Power BI dashboard built to analyze **hospital patient waiting
 </p>
 
 ---
-# 🏥 Hospital Patient Waiting List Dashboard - Power BI
-
 
 
 ## 🎯 Purpose
@@ -56,7 +54,7 @@ The main goals of this dashboard are to:
 
 ## 🌐 Data Source
 
-The data used in this project was collected from **public sources on the internet**, originally published as part of healthcare statistics reports.
+The data used in this project was collected from **public sources on the internet**.
 
 ---
 
